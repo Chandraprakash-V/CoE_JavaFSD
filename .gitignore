@@ -1,0 +1,31 @@
+# Eclipse specific files
+/.classpath
+/.project
+/.settings/
+/*.launch
+/.metadata/
+
+# Eclipse Local History
+/.history/
+
+# Build output
+/bin/
+/target/
+
+# Java specific files
+*.class
+*.log
+*.tmp
+*.bak
+
+# IntelliJ IDEA specific files (in case you're using it for some other projects)
+/.idea/
+/*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+/mvnw
+/mvnw.cmd
