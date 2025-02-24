@@ -1,0 +1,79 @@
+/* About Section - Revised Colors */
+.about-section {
+    padding: 100px 20px 50px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #1ac203; /* Bright blue, consistent with previous suggestions */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-description {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    color: #555; /* Darker gray for better contrast */
+    line-height: 1.6;
+}
+
+/* About Grid */
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-card {
+    background: #f0f0f0; /* Slightly darker gray card background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Darker shadow */
+}
+
+.about-card h2 {
+    font-size: 22px;
+    color: #1ac203; /* Consistent bright blue */
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    font-size: 16px;
+    color: #666; /* Darker gray for card text */
+}
+
+.about-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-card ul li {
+    font-size: 16px;
+    color: #666; /* Darker gray for list items */
+    padding: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .toggle-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-description {
+        font-size: 16px;
+    }
+    .about-card h2 {
+        font-size: 20px;
+    }
+}
